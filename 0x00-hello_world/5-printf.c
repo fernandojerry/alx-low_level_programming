@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * Main - collect a string
- * Description: prints with proper grammar, but the outcome is a piece of art,
+ * Description: use printf
  * Return: 0
  */
 int main(void)
