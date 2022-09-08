@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main - prints a string
- * Description: Prints the output without printf and puts
+ *
+ * Description: Prints "and that piece of art is useful"
  * Return 1
  */
 int main(void)
