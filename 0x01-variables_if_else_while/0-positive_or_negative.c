@@ -1,6 +1,6 @@
+#include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
-#include <stdio.h> 
+#include <time.h> 
 /**
  * main - Entry point
  * Description: print whether the number stored in the variable n is positive
