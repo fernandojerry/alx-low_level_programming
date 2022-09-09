@@ -7,7 +7,7 @@
  * Return: 0
  */
 int main(void)
-{	
+{
 	char c;
 	char d = '0';
 
