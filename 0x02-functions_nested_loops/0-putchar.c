@@ -3,8 +3,9 @@
  * main - Entry point
  * Return Always 0 (success)
  */
-int main(void)
+int main()
 {
+	/* body of main function */
 	printf("_putchar\n");
 	return (0);
 }
