@@ -4,7 +4,7 @@
  * @n: number
  * Return: absolute valueof n
  */
- int _abs(int n)
+int _abs(int n)
 {
 	return (((n >= 0) ? 1 : -1) * n);
 }
