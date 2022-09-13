@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-	char c[] = {_putchar};
+	char c[] = "_putchar";
 
-	putchar("%s", c);
+	printf("%s", c);
 	return (0);
 }
