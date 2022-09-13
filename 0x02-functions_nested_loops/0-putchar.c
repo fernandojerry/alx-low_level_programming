@@ -5,8 +5,6 @@
  */
 int main(void)
 {
-	char c[] = "_putchar";
-
-	printf("%s\n", c);
+	printf("_putchar");
 	return (0);
 }
