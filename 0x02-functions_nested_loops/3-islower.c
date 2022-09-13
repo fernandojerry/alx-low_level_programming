@@ -6,9 +6,7 @@
  */
 int _islower(int c)
 {
-	char c = 't';
-
-	if (c == 116)
+	if (c == 99)
 		_putchar("%d", 1);
 	else
 		_putchar("%d", 0);
