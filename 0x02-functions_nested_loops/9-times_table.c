@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * times_table - prints the 9 times table, starting with 0
@@ -16,9 +17,9 @@ void times_table(void)
 			{
 				printf(", ");
 			}
-			_putchar("%2d", number * multiplier);
+			printf("%2d", number * multiplier);
 		}
-		_putchar("\n");
+		printf("\n");
 
 	}
 }
