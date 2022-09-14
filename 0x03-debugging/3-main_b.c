@@ -17,7 +17,7 @@ int main(void)
 	day = 29;
 	year = 2000;
 
-        if (month == 2 && day <= 60)
+        if (month == 2 && day <= 29)
         {
             day++;
         }
