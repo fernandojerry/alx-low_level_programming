@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * jack_bauer - checks time
