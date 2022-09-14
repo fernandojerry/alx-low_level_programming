@@ -17,11 +17,11 @@ int main(void)
 	day = 29;
 	year = 2000;
 
-	printf("Date: %02d/%02d/%04d\n", month, day, year);
+        if (month == 2 && day <= 60)
+        {
+            day++;
+        }
 
-	day = convert_day(month, day);
-
-	print_remaining_days(month, day, year);
-
-	return (0);
+        printf("Day of the year: %d\n", day);
+        printf("Remaining days: %d\n", 366 - day);
 }
