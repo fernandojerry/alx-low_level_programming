@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_most_numbers - prints the numbers interleaved
- *
+ * @c: print numbers except 2 and 4
  * Return: numbers
  */
 void print_most_numbers(void)
