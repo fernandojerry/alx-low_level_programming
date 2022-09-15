@@ -1,10 +1,9 @@
 #include "main.h"
 /**
-* most_number - prints number from 0 to 9
-* except 2 and 4
-*
-* Return: 0
-*/
+ * print_most_numbers - prints the numbers interleaved
+ *
+ * Return: numbers
+ */
 void print_most_numbers(void)
 {
 	int c;
