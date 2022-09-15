@@ -1,18 +1,19 @@
 #include "main.h"
 /**
- * print_most_numbers - prints the numbers except 2 and 4
+ * print_most_numbers - prints the numbers interleaved
+ *
  * Return: numbers
  */
 void print_most_numbers(void)
 {
-	int c;
+	int numb;
 
-	for (c = 0; c <= 9; c++)
+	for (numb = 48 ; numb <= 57 ; numb++)
 	{
-		if (c == 2 || c == 4)
-			continue;
-		else
-			break;
-		_putchar('\n');
+		if (numb != 50 && numb != 52)
+		{
+			_putchar(numb);
+		}
 	}
+	_putchar('\n');
 }
