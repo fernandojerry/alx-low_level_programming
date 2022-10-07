@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -9,12 +8,12 @@
  * if malloc fails, the malloc_checked function should cause normal process
  * termination with a status value of 98
  */
-void *malloc_checked(unsigned in b)
+void *malloc_checked(unsigned int b)
 {
-	void *a;
+	void *p;
 
-	a = malloc(b);
-	if (a == NULL)
+	p = malloc(b);
+	if (p == NULL)
 		exit(98);
-	return (a);
+	return (p);
 }
