@@ -1,6 +1,7 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * print_strings - Prints strings passed to the function separed by separators
  * @separator: A string that is used to separate strings
